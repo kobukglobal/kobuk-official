@@ -1,0 +1,29 @@
+{
+  "name": "Geobukseon Coin",
+  "symbol": "KOBUK",
+  "description": "Geobukseon Coin (KOBUK) is a K-crypto brand built on Korean symbolism, designed to sail from Korea to the world. Inspired by the legacy of the Geobukseon, KOBUK represents resilience, strategy, and cultural expansion in the digital age.",
+  "image": "https://raw.githubusercontent.com/kobukglobal/kobuk-official/main/kobuk-logo-v3.png",
+  "external_url": "https://github.com/kobukglobal/kobuk-official",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "Fungible Token"
+    },
+    {
+      "trait_type": "Origin",
+      "value": "Korea"
+    },
+    {
+      "trait_type": "Symbolism",
+      "value": "Geobukseon"
+    },
+    {
+      "trait_type": "Chain",
+      "value": "Solana"
+    },
+    {
+      "trait_type": "Ticker",
+      "value": "KOBUK"
+    }
+  ]
+}
