@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 
 const MINT = "2L5r5Gjtu8DkqJJVggbeCDT641oJB8aPJpjM9XNtJ4BD";
-const LOGO = "/kobuk-logo.png";
+const LOGO = `${import.meta.env.BASE_URL}kobuk-logo.png`;
 
 function useInView(threshold = 0.1) {
   const ref = useRef(null);
