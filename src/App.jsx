@@ -892,6 +892,7 @@ export default function App() {
           <li><a href="#token">Token</a></li>
           <li><a href="#roadmap">Roadmap</a></li>
           <li><a href="https://x.com/kobukofficial" target="_blank" rel="noopener noreferrer">X</a></li>
+          <li><a href="https://t.me/kobukglobal" target="_blank" rel="noopener noreferrer">Telegram</a></li>
           <li><a href="https://github.com/kobukglobal/kobuk-official" target="_blank" rel="noopener noreferrer">GitHub</a></li>
         </ul>
       </nav>
@@ -1050,7 +1051,9 @@ export default function App() {
           <FadeIn delay={0.18}>
             <div className="links-grid">
               <CopyButton text={MINT} label="Mint" />
+              <LinkButton href="https://kobukglobal.github.io/kobuk-official/" label="Official Website" />
               <LinkButton href="https://x.com/kobukofficial" label="Official X" />
+              <LinkButton href="https://t.me/kobukglobal" label="Telegram Announcements" />
               <LinkButton href="https://github.com/kobukglobal/kobuk-official" label="GitHub Repository" />
               <LinkButton href="mailto:kobuk.global@proton.me" label="Email — kobuk.global@proton.me" />
             </div>
@@ -1178,11 +1181,12 @@ export default function App() {
 
         <div className="footer-links">
           <a href="https://x.com/kobukofficial" target="_blank" rel="noopener noreferrer">X / Twitter</a>
+          <a href="https://t.me/kobukglobal" target="_blank" rel="noopener noreferrer">Telegram / Announcements</a>
           <a href="https://github.com/kobukglobal/kobuk-official" target="_blank" rel="noopener noreferrer">GitHub</a>
           <a href="mailto:kobuk.global@proton.me">Email</a>
         </div>
 
-        <p className="footer-copy">© 2026 Geobukseon Coin. All rights reserved.</p>
+        <p className="footer-copy">© 2026년 4월 Geobukseon Coin. All rights reserved.</p>
       </footer>
     </div>
   );
