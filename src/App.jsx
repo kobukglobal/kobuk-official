@@ -778,7 +778,54 @@ export default function App() {
           .nav { padding: 16px 20px; }
           .nav-links { display: none; }
           .section { padding: 72px 20px; }
-          .hero { padding: 120px 20px 72px; }
+          .hero { padding: 120px 20px 92px; }
+
+          .divider {
+            background: linear-gradient(90deg, transparent, rgba(196,162,101,0.035), transparent);
+          }
+
+          #manifesto .section {
+            max-width: 100%;
+          }
+
+          #manifesto .sec-num,
+          #manifesto .sec-title,
+          #manifesto .body,
+          #manifesto .values {
+            text-align: left;
+          }
+
+          #manifesto .sec-title {
+            font-size: 30px;
+            line-height: 1.3;
+            margin-bottom: 18px;
+          }
+
+          #manifesto .gold-line {
+            margin-left: 0;
+            margin-right: auto;
+            margin-bottom: 22px;
+          }
+
+          #manifesto .body {
+            font-size: 15px;
+            line-height: 2;
+            max-width: 100%;
+          }
+
+          #manifesto .values {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 8px;
+            margin-top: 26px;
+          }
+
+          #manifesto .val {
+            padding: 0;
+            font-size: 12px;
+            line-height: 1.9;
+          }
+
           .hero-logo { width: 72px; height: 72px; }
 
           .hero-mint {
@@ -884,7 +931,7 @@ export default function App() {
 
       <div className="divider" />
 
-      <section style={{ background: "linear-gradient(175deg, #0d1225, #080d1c)" }} id="manifesto">
+      <section style={{ background: "linear-gradient(180deg, #060a16 0%, #080d1c 38%, #0b1120 100%)" }} id="manifesto">
         <div className="section">
           <FadeIn>
             <p className="sec-num">01</p>
